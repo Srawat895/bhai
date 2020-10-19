@@ -1,0 +1,69 @@
+//Schedule a meeting
+[
+{
+"startTime": "2020-10-19T08:43:25Z",
+"lastName": "string",
+"duration": "string",
+"numAttendees": "string",
+"accountKey": "string",
+"email": "string",
+"sessionId": "string",
+"subject": "string",
+"locale": "string",
+"organizerKey": "string",
+"meetingId": "string",
+"meetingType": "immediate",
+"firstName": "string",
+"endTime": "2020-10-19T08:43:25Z",
+"conferenceCallInfo": "string",
+"recording": {}
+}
+]
+Get a meeting
+[
+{
+"startTime": "2020-10-19T08:43:25Z",
+"lastName": "string",
+"accountKey": "string",
+"passwordRequired": true,
+"email": "string",
+"status": "ACTIVE",
+"subject": "string",
+"locale": "string",
+"organizerKey": "string",
+"meetingId": "string",
+"meetingType": "immediate",
+"firstName": "string",
+"endTime": "2020-10-19T08:43:25Z",
+"conferenceCallInfo": "string"
+}
+]
+//List all meeting
+[
+{
+"lastName": "string",
+"groupName": "string",
+"numAttendees": 0,
+"passwordRequired": true,
+"status": "string",
+"subject": "string",
+"endTime": "2020-10-19T08:43:25Z",
+"date": "2020-10-19T08:43:25Z",
+"conferenceCallInfo": "string",
+"startTime": "2020-10-19T08:43:25Z",
+"organizerkey": "string",
+"meetingInstanceKey": 0,
+"newOrganizerKey": "string",
+"duration": 0,
+"newMeetingId": "string",
+"sessionId": 0,
+"email": "string",
+"meetingId": 0,
+"organizerKey": "string",
+"meetingKey": 0,
+"meetingType": "immediate",
+"firstName": "string",
+"uniqueMeetingId": 0,
+"recording": {}
+}
+]
